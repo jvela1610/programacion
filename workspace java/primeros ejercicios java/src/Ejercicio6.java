@@ -1,10 +1,24 @@
 import java.util.Scanner;
+
+/**
+ * clase de prueba de que incluye documentación de código mediante Javadoc
+ * 
+ * @author estudiante
+ *
+ */
 public class Ejercicio6 {
 	static Scanner teclado = new Scanner(System.in);
+	
+	/**
+	 * 
+	 * @param args
+	 */
 
 	public static void main(String[] args) {
 		int dia=0, mes=0;
 		
+		
+		 
 
 		System.out.println("¿en qué mes estamos?");
 		mes=Integer.parseInt(teclado.nextLine());
